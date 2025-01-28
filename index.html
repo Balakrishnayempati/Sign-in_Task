@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-image: url(https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?ga=GA1.1.672997019.1733483630&semt=ais_hybrid);width: 100%;height: 40px;">
+    <h3>
+    <fieldset style="background-color: rgb(255, 255, 255);">
+        <br>
+        <legend>Sign-in Page <i class="fa-solid fa-user"></i></legend>
+        <form action="Login.html" method="post">
+            <label for="name"><b>Enter your name:</b></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[a-zA-Z]+" autofocus title="Enter pattern like [a-zA-Z]" required><br><br>
+
+            <label for="email"><b>Enter your email:</b></label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter pattern like user@example.com" required><br><br>
+
+            <label for="password"><b>Create password:</b></labe>
+            <input type="text" id="password" name="password" placeholder="Create new password" pattern="[a-zA-Z0-9!@#$%^&*]{6}" title="Enter pattern like [a-zA-Z0-9!@#$%^&*]{}" required><br><br>
+
+            <input type="checkbox"><label><b> <i class="fa-solid fa-check"></i> Save the data</b></label><br><br>
+
+            <input type="submit" style="font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(9, 8, 8);background-color: rgb(141, 134, 128); margin-left: 120px;" value="Create account"> <i class="fa-solid fa-right-to-bracket"></i>
+            <br><br>
+            <input type="reset" value="Reset" style="font-family:Verdana, Geneva, Tahoma, sans-serif; color: rgb(9, 8, 8); background-color: rgb(141, 134, 128); margin-left: 100px;"> <i class="fa-solid fa-trash"></i>   
+        </form>
+    </fieldset>
+    </h3>
+</body>
+</html>
